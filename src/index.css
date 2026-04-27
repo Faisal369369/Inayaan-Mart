@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-green: #5A6750;
+  --color-brand-green-dark: #46513d;
+  --color-brand-light: #FDFCF9;
+  --color-brand-dark: #2D2A26;
+  --color-brand-sand: #F1EFE9;
+  --color-brand-accent: #E5E2DA;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+/* Base resets & utilities */
+body {
+  background-color: var(--color-brand-light);
+  color: var(--color-brand-dark);
+}
+
+.bg-glass {
+  background: rgba(253, 252, 249, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
